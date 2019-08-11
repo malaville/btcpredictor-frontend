@@ -3,9 +3,10 @@ import ChartFrappe from "./ChartFrappe";
 
 export const Home = () => {
   return (
-    <div>
+    <div id="home-container-div">
       <h1>BTC-PREDICTOR-2000</h1>
-      <ChartFrappe />
+      <ChartFrappe indicator="btc-daily" />
+      <ChartFrappe indicator="trends-daily" />
     </div>
   );
 };
